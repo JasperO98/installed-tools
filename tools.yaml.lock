@@ -8,6 +8,11 @@ tools:
   - 653e89d73fc4
   - e08a7ad4378b
   tool_panel_section_label: Get Data
+- name: ega_download_client
+  owner: iuc
+  revisions:
+  - caf213d51d6c
+  tool_panel_section_label: Get Data
 - name: fastqc
   owner: devteam
   revisions:
