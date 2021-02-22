@@ -1,0 +1,3 @@
+[submodule "workflows/wmdi"]
+	path = workflows/wmdi
+	url = git@github.com:ErasmusMC-Bioinformatics/WMDI-Workflows.git
