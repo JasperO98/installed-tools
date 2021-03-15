@@ -124,3 +124,18 @@ tools:
   revisions:
   - 7d37cfda8e00
   tool_panel_section_label: FASTA/FASTQ
+- name: sam_to_bam
+  owner: devteam
+  revisions:
+  - cf1ffd88f895
+  tool_panel_section_label: SAM/BAM
+- name: bam_to_sam
+  owner: devteam
+  revisions:
+  - 88eedb4abea0
+  tool_panel_section_label: SAM/BAM
+- name: bamtools
+  owner: devteam
+  revisions:
+  - 4d343c1f606b
+  tool_panel_section_label: SAM/BAM
