@@ -99,3 +99,7 @@ tools:
   - name: jbrowse
     owner: iuc
     tool_panel_section_label: 'Graph/Display Data'
+
+  - name: fasta_compute_length
+    owner: devteam
+    tool_panel_section_label: 'FASTA/FASTQ'
