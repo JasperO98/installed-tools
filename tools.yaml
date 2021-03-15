@@ -103,3 +103,15 @@ tools:
   - name: fasta_compute_length
     owner: devteam
     tool_panel_section_label: 'FASTA/FASTQ'
+
+  - name: sam_to_bam
+    owner: devteam
+    tool_panel_section_label: 'SAM/BAM'
+
+  - name: bam_to_sam
+    owner: devteam
+    tool_panel_section_label: 'SAM/BAM'
+
+  - name: bamtools
+    owner: devteam
+    tool_panel_section_label: 'SAM/BAM'
