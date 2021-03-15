@@ -19,6 +19,18 @@ tools:
     owner: 'devteam'
     tool_panel_section_label: 'FASTQ Quality Control'
 
+  - name: 'qualimap_bamqc'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTQ Quality Control'
+
+  - name: 'qualimap_counts'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTQ Quality Control'
+
+  - name: 'qualimap_multi_bamqc'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTQ Quality Control'
+
   - name: 'prinseq'
     owner: 'iuc'
     tool_panel_section_label: 'FASTQ Quality Control'
