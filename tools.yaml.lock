@@ -117,6 +117,7 @@ tools:
 - name: jbrowse
   owner: iuc
   revisions:
+  - 4542035c1075
   - 6cd09d7b5f37
   tool_panel_section_label: Graph/Display Data
 - name: fasta_compute_length
