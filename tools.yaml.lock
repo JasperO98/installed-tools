@@ -93,6 +93,7 @@ tools:
   owner: iuc
   revisions:
   - 0a5c785ac6db
+  - ce3c7f062223
   tool_panel_section_label: BED
 - name: text_processing
   owner: bgruening
