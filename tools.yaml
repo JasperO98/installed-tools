@@ -115,3 +115,7 @@ tools:
   - name: bamtools
     owner: devteam
     tool_panel_section_label: 'SAM/BAM'
+    
+  - name: vcfanno
+    owner: iuc
+    tool_panel_section_label: Annotation
