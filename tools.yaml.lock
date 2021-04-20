@@ -141,3 +141,8 @@ tools:
   revisions:
   - 4d343c1f606b
   tool_panel_section_label: SAM/BAM
+- name: vcfanno
+  owner: iuc
+  revisions:
+  - fb20fa735dfe
+  tool_panel_section_label: Annotation
