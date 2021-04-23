@@ -120,6 +120,7 @@ tools:
   revisions:
   - 4542035c1075
   - 6cd09d7b5f37
+  - 87dc4ce42281
   tool_panel_section_label: Graph/Display Data
 - name: fasta_compute_length
   owner: devteam
