@@ -95,6 +95,7 @@ tools:
   revisions:
   - 0a5c785ac6db
   - ce3c7f062223
+  - fe5b4cb8356c
   tool_panel_section_label: BED
 - name: text_processing
   owner: bgruening
