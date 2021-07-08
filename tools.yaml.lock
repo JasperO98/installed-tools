@@ -38,6 +38,7 @@ tools:
   owner: iuc
   revisions:
   - 02befcb391f5
+  - 654b3a274ed5
   tool_panel_section_label: FASTQ Quality Control
 - name: trim_galore
   owner: bgruening
