@@ -95,6 +95,7 @@ tools:
   owner: iuc
   revisions:
   - 0a5c785ac6db
+  - 3e38c9b3214f
   - ce3c7f062223
   - fe5b4cb8356c
   tool_panel_section_label: BED
