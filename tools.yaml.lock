@@ -119,6 +119,7 @@ tools:
 - name: circos
   owner: iuc
   revisions:
+  - 7f13dc906cb9
   - df7356989ac1
   tool_panel_section_label: Graph/Display Data
 - name: jbrowse
