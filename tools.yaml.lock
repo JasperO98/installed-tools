@@ -55,6 +55,7 @@ tools:
   owner: iuc
   revisions:
   - 75c93c70d094
+  - 9a913cdee30e
   - f7985e0479b9
   tool_panel_section_label: FASTQ Quality Control
 - name: megahit
