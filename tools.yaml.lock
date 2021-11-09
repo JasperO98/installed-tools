@@ -71,6 +71,7 @@ tools:
 - name: quast
   owner: iuc
   revisions:
+  - 342a1d1fed7b
   - ebb0dcdb621a
   tool_panel_section_label: Assembly
 - name: taxonomy_krona_chart
