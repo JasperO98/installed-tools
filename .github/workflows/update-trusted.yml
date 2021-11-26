@@ -3,8 +3,8 @@ name: Update Trusted Tools
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    # We'll run this daily at noon.
-    - cron:  '42 12 * * *'
+    # We'll run this weekly at noon.
+    - cron:  '42 12 * * 1'
   workflow_dispatch:
 
 jobs:
