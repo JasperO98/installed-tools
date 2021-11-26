@@ -160,3 +160,13 @@ tools:
   revisions:
   - fb20fa735dfe
   tool_panel_section_label: Annotation
+- name: hisat2
+  owner: iuc
+  revisions:
+  - 6c19daec423d
+  tool_panel_section_label: RNA Analysis
+- name: column_remove_by_header
+  owner: iuc
+  revisions:
+  - 372967836e98
+  tool_panel_section_label: Text Manipulation
