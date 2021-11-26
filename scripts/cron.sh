@@ -2,7 +2,7 @@
 
 # Fetch latest code
 git fetch origin
-git reset --hard origin/master
+git reset --hard origin/main
 
 # Update submodules
 git submodule sync
