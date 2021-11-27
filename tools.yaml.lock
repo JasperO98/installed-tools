@@ -72,6 +72,7 @@ tools:
   owner: iuc
   revisions:
   - 342a1d1fed7b
+  - 7594365c546b
   - ebb0dcdb621a
   tool_panel_section_label: Assembly
 - name: taxonomy_krona_chart
