@@ -159,6 +159,7 @@ tools:
 - name: vcfanno
   owner: iuc
   revisions:
+  - cdcaa40e5e45
   - fb20fa735dfe
   tool_panel_section_label: Annotation
 - name: hisat2
