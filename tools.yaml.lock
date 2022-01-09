@@ -62,6 +62,7 @@ tools:
   owner: iuc
   revisions:
   - 7518ee87b53d
+  - de387b2b2803
   tool_panel_section_label: Assembly
 - name: metaspades
   owner: nml
