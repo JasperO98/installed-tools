@@ -173,3 +173,8 @@ tools:
   revisions:
   - 372967836e98
   tool_panel_section_label: Text Manipulation
+- name: bwa_mem2
+  owner: iuc
+  revisions:
+  - b4a22d90cce9
+  tool_panel_section_label: Mapping
