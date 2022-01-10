@@ -127,3 +127,8 @@ tools:
   - name: column_remove_by_header
     owner: iuc
     tool_panel_section_label: Text Manipulation
+  
+  - name: bwa_mem2
+    owner: iuc
+    tool_panel_section_label: Mapping
+    
