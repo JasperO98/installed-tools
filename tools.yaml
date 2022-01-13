@@ -132,3 +132,6 @@ tools:
     owner: iuc
     tool_panel_section_label: Mapping
     
+  - name: varscan_somatic
+    owner: iuc
+    tool_panel_section_label: Variation
