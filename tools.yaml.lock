@@ -178,3 +178,8 @@ tools:
   revisions:
   - b4a22d90cce9
   tool_panel_section_label: Mapping
+- name: varscan_somatic
+  owner: iuc
+  revisions:
+  - cf8ffc79db67
+  tool_panel_section_label: Variation
