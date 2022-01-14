@@ -127,3 +127,11 @@ tools:
   - name: column_remove_by_header
     owner: iuc
     tool_panel_section_label: Text Manipulation
+
+  - name: varscan_mpileup
+    owner: iuc
+    tool_panel_section_label: Variation
+    
+  - name: vardict_java
+    owner: iuc
+    tool_panel_section_label: Variation
