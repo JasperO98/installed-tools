@@ -171,3 +171,11 @@ tools:
   - name: delly_rd
     owner: iuc
     tool_panel_section_label: Variation
+
+  - name: varscan_mpileup
+    owner: iuc
+    tool_panel_section_label: Variation
+    
+  - name: vardict_java
+    owner: iuc
+    tool_panel_section_label: Variation
