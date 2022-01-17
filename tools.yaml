@@ -115,23 +115,27 @@ tools:
   - name: bamtools
     owner: devteam
     tool_panel_section_label: 'SAM/BAM'
-    
+
   - name: vcfanno
     owner: iuc
     tool_panel_section_label: Annotation
-    
+
   - name: hisat2
     owner: iuc
     tool_panel_section_label: RNA Analysis
-    
+
   - name: column_remove_by_header
     owner: iuc
     tool_panel_section_label: Text Manipulation
-  
+
   - name: bwa_mem2
     owner: iuc
     tool_panel_section_label: Mapping
-    
+
   - name: varscan_somatic
+    owner: iuc
+    tool_panel_section_label: Variation
+
+  - name: lumpy_sv
     owner: iuc
     tool_panel_section_label: Variation
