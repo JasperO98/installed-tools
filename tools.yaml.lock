@@ -183,3 +183,58 @@ tools:
   revisions:
   - cf8ffc79db67
   tool_panel_section_label: Variation
+- name: lumpy_sv
+  owner: iuc
+  revisions:
+  - 88b35d91a662
+  tool_panel_section_label: Variation
+- name: lumpy_prep
+  owner: iuc
+  revisions:
+  - 80adce82354c
+  tool_panel_section_label: Variation
+- name: delly_call
+  owner: iuc
+  revisions:
+  - 6f383714149d
+  tool_panel_section_label: Variation
+- name: delly_classify
+  owner: iuc
+  revisions:
+  - d31211a43b19
+  tool_panel_section_label: Variation
+- name: delly_cnv
+  owner: iuc
+  revisions:
+  - 56781a718729
+  tool_panel_section_label: Variation
+- name: delly_filter
+  owner: iuc
+  revisions:
+  - d2590fe6793f
+  tool_panel_section_label: Variation
+- name: delly_lr
+  owner: iuc
+  revisions:
+  - d30785dbe6b7
+  tool_panel_section_label: Variation
+- name: delly_merge
+  owner: iuc
+  revisions:
+  - 1efb2b927957
+  tool_panel_section_label: Variation
+- name: delly_rd
+  owner: iuc
+  revisions:
+  - 512c21434aad
+  tool_panel_section_label: Variation
+- name: varscan_mpileup
+  owner: iuc
+  revisions:
+  - db94eadb92c1
+  tool_panel_section_label: Variation
+- name: vardict_java
+  owner: iuc
+  revisions:
+  - d262577e04b0
+  tool_panel_section_label: Variation

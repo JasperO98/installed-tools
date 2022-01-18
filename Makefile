@@ -17,22 +17,22 @@ fix: $(CORRECT_YAMLS) ## Fix any issues (missing hashes, missing lockfiles, etc.
 install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
 
 %.lint: %
-	python scripts/fix-lockfile.py $<
+	python3 scripts/fix-lockfile.py $<
 	pykwalify -d $< -s .schema.yaml
-	python scripts/identify-unpinned.py $<
+	python3 scripts/identify-unpinned.py $<
 
 %.fix: %
 	@# Generates the lockfile or updates it if it is missing tools
-	python scripts/fix-lockfile.py $<
+	python3 scripts/fix-lockfile.py $<
 	@# --without says only add those hashes for those missing hashes (i.e. new tools)
-	python scripts/update-tool.py $< --without
+	python3 scripts/update-tool.py $< --without
 
 %.install: %
 	@echo "Installing any updated versions of $<"
 	@-shed-tools install --install_resolver_dependencies --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY) 2>&1 | tee -a report.log
 
 pr_check:
-	for changed_yaml in `git diff remotes/origin/master --name-only | grep .yaml$$`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
+	for changed_yaml in `git diff remotes/origin/master --name-only | grep .yaml$$`; do python3 scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
 
 update_trusted: $(UPDATE_TRUSTED_IUC) ## Run the update script
 
