@@ -179,3 +179,11 @@ tools:
   - name: vardict_java
     owner: iuc
     tool_panel_section_label: Variation
+    
+  - name: samtools_markdup
+    owner: iuc
+    tool_panel_section_label: 'SAM/BAM'
+    
+  - name: samtools_sort
+    owner: devteam
+    tool_panel_section_label: 'SAM/BAM'
