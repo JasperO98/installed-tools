@@ -179,6 +179,10 @@ tools:
   - name: vardict_java
     owner: iuc
     tool_panel_section_label: Variation
+
+  - name: happy
+    owner: iuc
+    tool_panel_section_label: Variation
     
   - name: samtools_markdup
     owner: iuc
