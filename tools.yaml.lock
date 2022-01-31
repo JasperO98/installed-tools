@@ -239,3 +239,28 @@ tools:
   - d262577e04b0
   - e0734e88a104
   tool_panel_section_label: Variation
+- name: happy
+  owner: iuc
+  revisions:
+  - 728bd4d000b0
+  tool_panel_section_label: Variation
+- name: samtools_markdup
+  owner: iuc
+  revisions:
+  - 8c440c3002bc
+  tool_panel_section_label: SAM/BAM
+- name: samtools_sort
+  owner: devteam
+  revisions:
+  - 6c2c1836728b
+  tool_panel_section_label: SAM/BAM
+- name: bcftools_mpileup
+  owner: iuc
+  revisions:
+  - a0c219ecb5e7
+  tool_panel_section_label: Variation
+- name: star_fusion
+  owner: iuc
+  revisions:
+  - 137942fac417
+  tool_panel_section_label: RNA Analysis
