@@ -195,3 +195,7 @@ tools:
   - name: bcftools_mpileup
     owner: iuc
     tool_panel_section_label: Variation
+
+  - name: star_fusion
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
