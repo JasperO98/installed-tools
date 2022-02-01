@@ -199,3 +199,7 @@ tools:
   - name: star_fusion
     owner: iuc
     tool_panel_section_label: RNA Analysis
+
+  - name: samtools_mpileup
+    owner: devteam
+    tool_panel_section_label: Variation
