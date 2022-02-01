@@ -203,3 +203,7 @@ tools:
   - name: samtools_mpileup
     owner: devteam
     tool_panel_section_label: Variation
+    
+  - name: samtools_fixmate
+    owner: iuc
+    tool_panel_section_label: 'SAM/BAM'
