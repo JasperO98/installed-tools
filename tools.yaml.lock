@@ -264,3 +264,18 @@ tools:
   revisions:
   - 137942fac417
   tool_panel_section_label: RNA Analysis
+- name: samtools_mpileup
+  owner: devteam
+  revisions:
+  - 9da0311ab1dd
+  tool_panel_section_label: Variation
+- name: samtools_fixmate
+  owner: iuc
+  revisions:
+  - 595ae1ba934a
+  tool_panel_section_label: SAM/BAM
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 5edc472ec434
+  tool_panel_section_label: BLAST
