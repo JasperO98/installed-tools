@@ -14,6 +14,9 @@ fi
 . ~/.cache/tools-venv/bin/activate
 pip install -r requirements.txt
 
+# "fix them"
+make fix
+
 # Apply the changes
 make install GALAXY_SERVER=http://bioinf-galactus/ GALAXY_API_KEY=$GALAXY_ADMIN_API_KEY
 
