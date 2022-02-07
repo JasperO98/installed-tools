@@ -212,6 +212,10 @@ tools:
     owner: devteam
     tool_panel_section_label: BLAST
 
+  - name: bcftools_norm
+    owner: iuc
+    tool_panel_section_label: Variation
+    
   - name: picard
     owner: devteam
     tool_panel_section_label: Picard
