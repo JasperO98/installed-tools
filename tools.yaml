@@ -219,6 +219,9 @@ tools:
   - name: picard
     owner: devteam
     tool_panel_section_label: Picard
+
+  - name: sam_pileup
+    owner: devteam
     
   - name: bcftools_concat
     owner: iuc
