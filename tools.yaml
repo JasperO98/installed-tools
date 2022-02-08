@@ -222,4 +222,7 @@ tools:
 
   - name: sam_pileup
     owner: devteam
+    
+  - name: bcftools_concat
+    owner: iuc
     tool_panel_section_label: Variation
