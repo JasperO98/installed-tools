@@ -219,3 +219,7 @@ tools:
   - name: picard
     owner: devteam
     tool_panel_section_label: Picard
+    
+  - name: bcftools_concat
+    owner: iuc
+    tool_panel_section_label: Variation
