@@ -22,3 +22,10 @@ make install GALAXY_SERVER=http://bioinf-galactus/ GALAXY_API_KEY=$GALAXY_ADMIN_
 
 # Install workflows
 find . -name '*.ga' -exec workflow-install -g http://bioinf-galactus/ -a $GALAXY_ADMIN_API_KEY -w '{}' \;
+
+# Reload the toolbox a couple times.
+curl -X PUT http://bioinf-galactus/api/configuration/toolbox -H "x-api-key: $GALAXY_ADMIN_API_KEY"
+sleep 2
+curl -X PUT http://bioinf-galactus/api/configuration/toolbox -H "x-api-key: $GALAXY_ADMIN_API_KEY"
+sleep 2
+curl -X PUT http://bioinf-galactus/api/configuration/toolbox -H "x-api-key: $GALAXY_ADMIN_API_KEY"
