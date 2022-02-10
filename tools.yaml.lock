@@ -279,3 +279,23 @@ tools:
   revisions:
   - 5edc472ec434
   tool_panel_section_label: BLAST
+- name: bcftools_norm
+  owner: iuc
+  revisions:
+  - 67e2bd1c4579
+  tool_panel_section_label: Variation
+- name: picard
+  owner: devteam
+  revisions:
+  - 881d7645d1bf
+  tool_panel_section_label: Picard
+- name: sam_pileup
+  owner: devteam
+  revisions:
+  - a3b4ad6858ff
+  tool_panel_section_label: Variation
+- name: bcftools_concat
+  owner: iuc
+  revisions:
+  - 81426b3cf18b
+  tool_panel_section_label: Variation
