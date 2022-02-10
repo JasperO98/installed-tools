@@ -227,3 +227,7 @@ tools:
   - name: bcftools_concat
     owner: iuc
     tool_panel_section_label: Variation
+
+  - name: vcffilter
+    owner: devteam
+    tool_panel_section_label: Variation
